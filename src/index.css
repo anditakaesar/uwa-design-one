@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@import "./tokens.css";
+
+/* Put the global css here */
+/* body {
+    background: grey;
+} */
