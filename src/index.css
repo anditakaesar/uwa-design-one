@@ -6,3 +6,8 @@
 /* body {
     background: grey;
 } */
+
+#app {
+  margin: 0;
+  padding: 0;
+}
