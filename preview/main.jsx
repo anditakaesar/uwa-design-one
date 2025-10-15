@@ -26,10 +26,8 @@ ReactDOM.createRoot(document.getElementById("app")).render(
     </div>
 
     <div className="space-y-6">
-      <h2 className="text-3xl font-heading">Inputs</h2>
-      <div className="flex justify-around">
-        <InputsShowcase />
-      </div>
+      <h2 className="text-3xl font-heading">Inputs & Forms</h2>
+      <InputsShowcase />
     </div>
 
   </div>
