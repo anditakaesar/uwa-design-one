@@ -2,7 +2,8 @@ import React from "react";
 
 export default function TypographyShowcase() {
   return (
-    <div className="space-y-8">
+    <>
+      <h2 className="text-2xl pb-5">Typography Show Case</h2>
       {/* Headings */}
       <section>
         <div className="space-y-2">
@@ -73,6 +74,6 @@ export default function TypographyShowcase() {
 };`}
         </pre>
       </section>
-    </div>
+    </>
   );
 };

@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "./Button";
+import Button from "../components/Button";
 
 export default function ButtonShowcase() {
   const variants = [
@@ -15,7 +15,8 @@ export default function ButtonShowcase() {
   const sizes = ["sm", "md", "lg"];
 
   return (
-    <div className="space-y-10">
+    <>
+      <h2 className="text-2xl pb-5">Inputs Show Case</h2>
       {/* Variants */}
       <section>
         <h2 className="text-xl font-semibold mb-4 text-neutral-700">Variants</h2>
@@ -64,6 +65,6 @@ export default function ButtonShowcase() {
           </Button>
         </div>
       </section>
-    </div>
+    </>
   );
 }
